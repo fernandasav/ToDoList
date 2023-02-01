@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" media="screen and (max-width: 400px)" href="styleMobile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+  <title>TODO List</title>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+    <div class="headerImage">
+       <div class="headerText">
+        <h1>TODO</h1>
+       </div>
+	     <div class="app">
+		    <section class="greeting">
+		    	<h2 class="title">
+				   Welcome, <input type="text" id="name" placeholder="Name here" color="white" />
+			    </h2>
+	      </section>
+	    	<section class="create-todo">
+     			<form id="new-todo-form">
+				  <input type="text" placeholder="Create new TODO" name="content" id="content" />
+       </div>
+      </div>
+      </div>
+      </header>
+    
+    <main class="app">
+
+		<section class="todo-list">
+			<h3>TODO LIST</h3>
+			<div class="list" id="todo-list"></div>
+    </section>
+
+	</main>
+
+	<script src="main.js"></script>
+
+  <footer> 
+    <section id="footer">
+     <div class="footerItems" >
+      <div class="footerLogo">
+        <p>© TODO 2023</p>
+      </div>
+      <div class="footerOptions">
+        <ul>
+          <ui>Terms</ui>
+          <ui>Cookie Policy</ui>
+          <ui>Privacy Policy</ui>
+          <ui>License</ui>
+        </ul>
+      </div>
+     </div>
+   </section>
+  </footer>
+</body>
+</html>
